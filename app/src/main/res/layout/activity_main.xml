@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="amikom.vika.simpleaplication.MainActivity">
+
+    <Button
+        android:id="@+id/fragmen1"
+        android:layout_width="301dp"
+        android:layout_height="61dp"
+        android:text="Go to fragment"
+        android:layout_centerInParent="true" />
+    <Button
+        android:id="@+id/fragmen2"
+        android:layout_width="301dp"
+        android:layout_height="61dp"
+        android:text="Go to activity "
+        android:layout_below="@+id/fragmen1"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
